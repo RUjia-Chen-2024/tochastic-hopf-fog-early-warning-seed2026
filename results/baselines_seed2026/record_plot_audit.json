@@ -1,0 +1,128 @@
+[
+  {
+    "record": "Pt_10_FD10_1",
+    "onsets": 10,
+    "alarms": 17,
+    "covered": 10
+  },
+  {
+    "record": "Pt_10_FD10_2",
+    "onsets": 2,
+    "alarms": 3,
+    "covered": 1
+  },
+  {
+    "record": "Pt_10_FD10_4",
+    "onsets": 5,
+    "alarms": 5,
+    "covered": 4
+  },
+  {
+    "record": "Pt_18_FD18_2",
+    "onsets": 5,
+    "alarms": 3,
+    "covered": 3
+  },
+  {
+    "record": "Pt_18_FD18_3",
+    "onsets": 7,
+    "alarms": 11,
+    "covered": 7
+  },
+  {
+    "record": "Pt_18_FD18_4",
+    "onsets": 6,
+    "alarms": 9,
+    "covered": 6
+  },
+  {
+    "record": "Pt_18_FD18_5",
+    "onsets": 5,
+    "alarms": 8,
+    "covered": 5
+  },
+  {
+    "record": "Pt_20_FD20_2",
+    "onsets": 6,
+    "alarms": 12,
+    "covered": 6
+  },
+  {
+    "record": "Pt_20_FD20_3",
+    "onsets": 5,
+    "alarms": 8,
+    "covered": 4
+  },
+  {
+    "record": "Pt_20_FD20_4",
+    "onsets": 5,
+    "alarms": 6,
+    "covered": 5
+  },
+  {
+    "record": "Pt_20_FD20_5",
+    "onsets": 5,
+    "alarms": 7,
+    "covered": 4
+  },
+  {
+    "record": "Pt_20_FD20_6",
+    "onsets": 7,
+    "alarms": 9,
+    "covered": 6
+  },
+  {
+    "record": "Pt_22_FD22_3",
+    "onsets": 1,
+    "alarms": 6,
+    "covered": 1
+  },
+  {
+    "record": "Pt_31_FD31_1",
+    "onsets": 2,
+    "alarms": 5,
+    "covered": 2
+  },
+  {
+    "record": "Pt_31_FD31_2",
+    "onsets": 2,
+    "alarms": 3,
+    "covered": 2
+  },
+  {
+    "record": "Pt_32_FD32_1",
+    "onsets": 3,
+    "alarms": 3,
+    "covered": 3
+  },
+  {
+    "record": "Pt_33_FD33_1",
+    "onsets": 3,
+    "alarms": 15,
+    "covered": 3
+  },
+  {
+    "record": "Pt_33_FD33_2",
+    "onsets": 5,
+    "alarms": 6,
+    "covered": 5
+  },
+  {
+    "record": "Pt_33_FD33_4",
+    "onsets": 1,
+    "alarms": 3,
+    "covered": 1
+  },
+  {
+    "record": "Pt_33_FD33_5",
+    "onsets": 4,
+    "alarms": 17,
+    "covered": 4
+  },
+  {
+    "record": "Pt_33_FD33_6",
+    "onsets": 2,
+    "alarms": 4,
+    "covered": 2
+  }
+]

@@ -1,0 +1,4 @@
+scenario,records,normal_test_origins,test_events,covered_events,event_coverage,alarms,alarms_per_normal_test_minute,pooled_median_lead_s,brier_2s,scored_origins
+Fitted time-varying beta(s),21,8264,91,83,0.9120879120879121,166,24.10454985479264,0.685,0.2365522616905443,8171
+Beta frozen at each origin beta(0),21,8264,91,83,0.9120879120879121,166,24.10454985479264,0.685,0.23654672662130172,8171
+Record-specific beta* from fit prefix,21,8264,91,83,0.9120879120879121,164,23.814133591481884,0.705,0.23693554095897457,8171

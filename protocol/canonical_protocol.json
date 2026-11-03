@@ -1,0 +1,91 @@
+{
+  "study": "Inverse modelling of stochastic Hopf dynamics for early warning of stepping-cycle anomalies",
+  "data": {
+    "records": 21,
+    "participants": 7,
+    "sampling_rate_hz": 100,
+    "force_channels": [
+      "x",
+      "y"
+    ],
+    "source_url": "https://figshare.com/s/a14be7360925639736ba"
+  },
+  "reference_event": {
+    "cycle_T_seconds": 1.13,
+    "prolonged_gap_multiplier": 1.5,
+    "deadline_D_seconds": 1.695,
+    "criterion": "adjacent accepted peaks separated by > 1.5T; onset at preceding peak + D; no added merging rule"
+  },
+  "history": {
+    "cycles": 1.0,
+    "seconds": 1.13,
+    "raw_samples": 114,
+    "five_sample_blocks": 23,
+    "channels": 2
+  },
+  "chronological_split": {
+    "fit_fraction": 0.52,
+    "validation_fraction": 0.13,
+    "test_fraction": 0.35
+  },
+  "forecast": {
+    "simulation_horizon_seconds": 5.0,
+    "integrator_dt_seconds": 0.01,
+    "coefficient_update_seconds": 0.05,
+    "paths": 128,
+    "event_horizons_seconds": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "primary_event_horizon_seconds": 2.0
+  },
+  "alarm": {
+    "risk_threshold": 0.8,
+    "comparison": "strictly greater than",
+    "consecutive_origins": 2,
+    "origin_interval_seconds": 0.05,
+    "rearm": "use the same saved alarm state machine as the primary evaluation"
+  },
+  "hopf_parameter_ranges": {
+    "beta": [
+      -0.98,
+      -0.02
+    ],
+    "frequency_hz": [
+      0.1,
+      3.0
+    ],
+    "sigma": [
+      0.01,
+      0.4
+    ]
+  },
+  "labels_and_screening": {
+    "reference_rule": "paper_2020 prolonged-cycle criterion",
+    "extra_event_merging": false,
+    "eligible_origins": "offline reference-normal test origins only",
+    "normal_origins": 8264,
+    "test_events": 91,
+    "complete_2s_scored_origins": 8171
+  },
+  "seeds": {
+    "training_seed": 2026,
+    "primary_evaluation_seed": 2026,
+    "component_replay_seed": 2026,
+    "record_seed_offset": 0,
+    "historical_validation_noise_seed": 777
+  },
+  "reproducibility": {
+    "primary_batch_size": 32,
+    "component_replay_batch_size": 16,
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "deterministic_algorithms": true,
+    "tf32": false,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "scope_note": "Primary batch-32 stream and component-replay batch-16 stream are separate Monte Carlo evaluation streams. Scientific parameters match; results must remain labeled by stream.",
+  "source_manuscript": "Author-supplied protocol manuscript; cited in paper/CITATION.md and not redistributed."
+}

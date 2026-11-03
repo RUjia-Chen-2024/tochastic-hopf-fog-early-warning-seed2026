@@ -1,0 +1,1 @@
+No license file is included because no redistribution license was specified. Before making this repository public, the author should choose a code/results license and confirm redistribution terms for the manuscript, model checkpoints, and source dataset. The current package deliberately omits raw force data and model checkpoints.

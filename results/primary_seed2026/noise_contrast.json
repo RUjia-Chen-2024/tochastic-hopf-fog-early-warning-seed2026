@@ -1,0 +1,12 @@
+{
+  "seed": 2026,
+  "alarm_reduction_pct": 27.363184079601986,
+  "brier_reduction_pct": 14.687404001899019,
+  "covered_zero": 82,
+  "covered_learned": 80,
+  "paired_events": {
+    "both": 80,
+    "neither": 9,
+    "zero_only": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 2026,
+  "network_history_cycles": 1.0,
+  "simulator_horizon_seconds": 5.0,
+  "paths": 128,
+  "event_window_seconds": 2.0,
+  "alarm_threshold": 0.8,
+  "alarm_confirmation": "two consecutive 0.05-s origins",
+  "beta_star": "For each record, median inferred beta(0) over model input histories ending in that record's fit prefix only; this scalar is then used for every test origin and all 5 s of each rollout.",
+  "paired_controls": "Same z0, frequency(t), sigma(t), decoder and Gaussian increments; only beta differs.",
+  "interpretation_limit": "Post-fit intervention. It tests dependence on record-specific, history-varying beta values; it does not establish physiological causality or unique parameter identification."
+}

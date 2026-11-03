@@ -1,0 +1,115 @@
+{
+  "formula": "sum((raw_probability - binary_future_onset_label)^2) / number_of_scored_origins",
+  "aggregation": "micro / pooled origins; not an unweighted average of record scores",
+  "threshold_in_brier": false,
+  "confirmation_rule_in_brier": false,
+  "label_mismatches": 0,
+  "tail_mask_mismatches": 0,
+  "path_probability_mismatches": 0,
+  "primary_origins": 8264,
+  "scored_origins": 8234,
+  "checks": [
+    {
+      "variant": "zero_noise",
+      "horizon": 1,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "zero_noise",
+      "horizon": 2,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "zero_noise",
+      "horizon": 3,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "zero_noise",
+      "horizon": 5,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "learned_seed_2026",
+      "horizon": 1,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "learned_seed_2026",
+      "horizon": 2,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "learned_seed_2026",
+      "horizon": 3,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    },
+    {
+      "variant": "learned_seed_2026",
+      "horizon": 5,
+      "raw_reference_labels_checked": true,
+      "raw_record_end_mask_checked": true,
+      "per_path_probability_checked": true
+    }
+  ],
+  "baseline_alignment": [
+    {
+      "method": "clock_gate",
+      "total_origins": 8264,
+      "scored_origins": 8234,
+      "identical_origin_set": true,
+      "identical_labels": true,
+      "identical_score_mask": true
+    },
+    {
+      "method": "clock_constant",
+      "total_origins": 8264,
+      "scored_origins": 8234,
+      "identical_origin_set": true,
+      "identical_labels": true,
+      "identical_score_mask": true
+    },
+    {
+      "method": "age_survival",
+      "total_origins": 8264,
+      "scored_origins": 8234,
+      "identical_origin_set": true,
+      "identical_labels": true,
+      "identical_score_mask": true
+    },
+    {
+      "method": "age_logistic_ungated",
+      "total_origins": 8264,
+      "scored_origins": 8234,
+      "identical_origin_set": true,
+      "identical_labels": true,
+      "identical_score_mask": true
+    },
+    {
+      "method": "age_logistic_gated",
+      "total_origins": 8264,
+      "scored_origins": 8234,
+      "identical_origin_set": true,
+      "identical_labels": true,
+      "identical_score_mask": true
+    }
+  ],
+  "max_model_difference": 0.0,
+  "baseline_input_sha256": "056ceed56427d4b2b2f806bffad2f1f56d1c21d382f196bb19f917c68a57b3b7",
+  "baseline_scope": "Frozen 1-s baseline probability predictors, independently rescored. No neural historical risks reused. Baselines have no Monte Carlo path draws.",
+  "long_horizon_scope": "Only the fit-prefix constant reference has 2/3/5-s targets here. The four main 1-s baselines must not be relabelled as long-horizon baselines."
+}

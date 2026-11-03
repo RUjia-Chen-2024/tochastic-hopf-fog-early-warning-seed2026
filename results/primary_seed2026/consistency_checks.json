@@ -1,0 +1,36 @@
+{
+  "seed": 2026,
+  "record_offset": 0,
+  "records": 21,
+  "normal_origins": 8264,
+  "primary_multihorizon_risks_exact": true,
+  "primary_multihorizon_alarms_exact": true,
+  "primary_multihorizon_labels_exact": true,
+  "all_checkpoint_hashes_unchanged": true,
+  "all_saved_rng_file_hashes_verified": true,
+  "all_42_variant_last_batch_replays_exact": true,
+  "independent_full_record_replay": [
+    {
+      "record": "Pt_10_FD10_1",
+      "variant": "zero_noise",
+      "seed": 2026,
+      "origins": 521,
+      "batches": 17,
+      "all_paths_exact": true,
+      "draws": 1,
+      "device": "cuda:0"
+    },
+    {
+      "record": "Pt_10_FD10_1",
+      "variant": "learned_seed_2026",
+      "seed": 2026,
+      "origins": 521,
+      "batches": 17,
+      "all_paths_exact": true,
+      "draws": 128,
+      "device": "cuda:0"
+    }
+  ],
+  "full_force_paths_bytes": 4264229376,
+  "full_paths_storage": "Retained on SSH server; local package includes states, first-onset paths and hashes, not 4-GB force arrays"
+}

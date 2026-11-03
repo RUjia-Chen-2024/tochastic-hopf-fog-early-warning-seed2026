@@ -1,0 +1,5 @@
+reference_burden_method,target_alarms_per_minute,method,below_threshold,below_alarms_per_normal_minute,below_covered_events,below_events,below_event_coverage,below_alarms,above_threshold,above_alarms_per_normal_minute,above_covered_events,above_events,above_event_coverage,above_alarms
+Direct risk MLP at threshold 0.80,5.517909002904339,Constant future coefficients,1.0,0.0,0,91,0.0,0,0.9921875,13.939980638916571,70,91,0.7692307692307693,96
+Direct risk MLP at threshold 0.80,5.517909002904339,Direct risk MLP,0.81,5.082284607938334,11,91,0.12087912087912088,35,0.78,5.517909002904476,13,91,0.14285714285714285,38
+Direct risk MLP at threshold 0.80,5.517909002904339,Full DeepONet–Hopf (event loss),1.0,0.0,0,91,0.0,0,0.9921875,14.666021297193478,71,91,0.7802197802197802,101
+Direct risk MLP at threshold 0.80,5.517909002904339,No event loss,1.0,0.0,0,91,0.0,0,0.9921875,14.666021297193478,72,91,0.7912087912087912,101

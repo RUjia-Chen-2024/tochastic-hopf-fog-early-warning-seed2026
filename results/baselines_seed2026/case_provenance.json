@@ -1,0 +1,16 @@
+{
+  "record": "Pt_10_FD10_1",
+  "origin": 59.19,
+  "index": 13,
+  "remote_array": "<SERVER_RUN_DIR>",
+  "array_shape": [
+    521,
+    128,
+    500,
+    2
+  ],
+  "remote_full_array_sha256": "3aa77588c443dac2157d533968a4e82df0672adc71bc1fd160c483df50f3fbb7",
+  "slice_sha256": "035be2fe79b54d85e3b015837f92851f62f2756ef72a15cf88ff367db7faf504",
+  "read_only_slice_fetch": true,
+  "no_simulation": true
+}

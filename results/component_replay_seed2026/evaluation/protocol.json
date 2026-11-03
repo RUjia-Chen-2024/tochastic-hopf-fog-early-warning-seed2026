@@ -1,0 +1,20 @@
+{
+  "records": 21,
+  "participants": 7,
+  "network_history_cycles": 1.0,
+  "network_history_seconds": 1.13,
+  "seed": 2026,
+  "simulator_horizon_seconds": 5.0,
+  "evaluation_event_window_seconds": 2.0,
+  "paths": 128,
+  "threshold_strictly_greater_than": 0.8,
+  "alarm_confirmation": "two consecutive rolling origins separated by 0.05 s",
+  "reference": "same paper_2020 cycle-gap intervals, zero extra event merging",
+  "split": "within each record: first 52% fit, next 13% validation, final 35% test; same offline normal-only screen",
+  "full_model_and_constant_auxiliary_training_event_window_seconds": 1.0,
+  "no_event_loss": "same DeepONet\u2013Hopf training objective with event-loss coefficient zero",
+  "constant_future_coefficients": "one coefficient triple per origin, held fixed over each 5-s SDE rollout; re-inferred at each next origin",
+  "direct_mlp": "MLP predicts probability of reference onset in next 2 s from same 1T force history plus ~2T observed peak context and full-prefix peak age",
+  "probability": "DeepONet\u2013Hopf: fraction of 128 paths whose first new cycle-gap onset falls within 2 s; MLP: sigmoid risk output",
+  "evaluation": "event coverage requires an alarm after prior reference end and within 2 s before onset; Brier uses complete 2-s follow-up normal origins"
+}

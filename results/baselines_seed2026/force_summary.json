@@ -1,0 +1,10 @@
+{
+  "mae": 27.653420525871898,
+  "persistence_mae": 38.42778699830863,
+  "rmse": 38.63491302710546,
+  "persistence_rmse": 56.760471614809695,
+  "cross_mae": 22.717227716894143,
+  "cross_persistence_mae": 26.89921058474011,
+  "interval_coverage": 0.5509203066948889,
+  "better_records": 18
+}

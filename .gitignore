@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.key
+*.pem
+*_force_paths.npy
+raw_data/
+checkpoints/
+
+# Author supplied manuscript is cited but not redistributed
+paper/manuscript_seed2026.pdf
+source_data/
+

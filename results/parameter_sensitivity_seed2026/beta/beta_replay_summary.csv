@@ -1,0 +1,3 @@
+scenario,records,origins,test_events,covered_events,event_coverage,alarms,alarms_per_normal_minute,median_lead_within_2s,brier_2s,scored_origins
+fitted beta(t),21,8264,91,83,0.9120879120879121,166,24.10454985479264,0.6850000000000023,0.2365522616905443,8171
+beta fixed at beta(0),21,8264,91,83,0.9120879120879121,166,24.10454985479264,0.6850000000000023,0.23654672662130172,8171

@@ -1,0 +1,22 @@
+{
+  "input_hashes_verified": 284,
+  "learned_horizons_exact": true,
+  "zero_diffusion_path_risks_exact_records": 21,
+  "case_path_events_exact": true,
+  "record_plots": 21,
+  "missed_events": 7,
+  "neural_retrained": false,
+  "simulation_rerun": false,
+  "primary_window_seconds": 2,
+  "selected_after_results": true,
+  "references_funding_author_title_unchanged": true,
+  "renewal_analytic_checks": "scripts/check_renewal.py passed",
+  "portability": "Audit and figure scripts successfully ran from bundled inputs",
+  "pdf_pages": 57,
+  "pdf_sha256": "8c0432392aa5d972ae93d6fe152cf33ee4503fc242246d54d55a4435cede0832",
+  "latex_warnings": 0,
+  "visual_qa": "All 57 pages rendered and contact sheets inspected; final pages 5,13,55 rechecked after last edits",
+  "references": 23,
+  "ppt_slides_visually_checked": 2,
+  "source_archive": "Inverse_Hopf_2s_primary_20261027_source.zip"
+}

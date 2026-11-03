@@ -1,0 +1,18 @@
+{
+  "seed": 2026,
+  "records_processed": 21,
+  "protocol": "1T history, 5-s simulator, 128 paths, 2-s event probability, threshold >0.80 on two consecutive 0.05-s origins",
+  "intervention": "Within each origin, hold beta at that origin's inferred beta(0) for all 5 s; preserve z0, frequency curve, sigma curve, decoder and paired Brownian increments.",
+  "interpretation_limit": "Post-fit sensitivity only; the noise simulation is stochastic and beta is not shown to be uniquely identified or physiologically causal.",
+  "outputs": [
+    "parameter_by_record.csv",
+    "origin_diagnostics.csv",
+    "basin_by_event_label.csv",
+    "beta_replay_by_record.csv",
+    "beta_replay_metrics_record.csv",
+    "beta_replay_summary.csv",
+    "basin_summary.csv",
+    "parameter_distributions.png",
+    "initial_state_and_beta_replay.png"
+  ]
+}

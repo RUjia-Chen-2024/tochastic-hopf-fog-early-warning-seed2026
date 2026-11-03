@@ -1,0 +1,8 @@
+record,onset,eligible,maximum_risk,high_count,category
+Pt_10_FD10_2,86.175,34,0.0078125,0,Below threshold
+Pt_10_FD10_4,81.30499999999999,34,0.03125,0,Below threshold
+Pt_18_FD18_2,58.925,8,0.0,0,Zero path risk
+Pt_18_FD18_2,65.595,34,0.03125,0,Below threshold
+Pt_20_FD20_3,68.68499999999999,40,0.78125,0,Below threshold
+Pt_20_FD20_5,58.555,1,1.0,1,Alarm activation
+Pt_20_FD20_6,84.55499999999999,34,0.125,0,Below threshold

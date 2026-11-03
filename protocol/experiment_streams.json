@@ -1,0 +1,45 @@
+{
+  "primary_evaluation": {
+    "seed": 2026,
+    "batch_size": 32,
+    "used_for": [
+      "1/2/3/5-s evaluation",
+      "zero-vs-learned diffusion comparison",
+      "primary baselines"
+    ],
+    "full_model_h2_reference": {
+      "covered_events": 84,
+      "events": 91,
+      "alarms": 160,
+      "median_lead_seconds": 0.68,
+      "brier": 0.2367541535279112
+    }
+  },
+  "component_replay": {
+    "seed": 2026,
+    "batch_size": 16,
+    "used_for": [
+      "no-event-loss training ablation",
+      "constant-future-coefficient training ablation",
+      "direct-risk MLP",
+      "beta/frequency/sigma post-fit interventions"
+    ],
+    "full_model_h2_reference": {
+      "covered_events": 83,
+      "events": 91,
+      "alarms": 166,
+      "median_lead_seconds": 0.685,
+      "brier": 0.2365522616905443
+    }
+  },
+  "legacy_excluded": {
+    "seed": 20261027,
+    "status": "historical only; do not combine with canonical seed-2026 rows",
+    "learned_noise_h2_reference": {
+      "covered_events": 84,
+      "events": 91,
+      "alarms": 166,
+      "median_lead_seconds": 0.67
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "records": [
+    {
+      "record": "Pt_10_FD10_1",
+      "origins": 521,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_10_FD10_2",
+      "origins": 499,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_10_FD10_4",
+      "origins": 333,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_18_FD18_2",
+      "origins": 237,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_18_FD18_3",
+      "origins": 253,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_18_FD18_4",
+      "origins": 355,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_18_FD18_5",
+      "origins": 336,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_20_FD20_2",
+      "origins": 459,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_20_FD20_3",
+      "origins": 328,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_20_FD20_4",
+      "origins": 343,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_20_FD20_5",
+      "origins": 355,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_20_FD20_6",
+      "origins": 458,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_22_FD22_3",
+      "origins": 520,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_31_FD31_1",
+      "origins": 377,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_31_FD31_2",
+      "origins": 306,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_32_FD32_1",
+      "origins": 102,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_33_FD33_1",
+      "origins": 567,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_33_FD33_2",
+      "origins": 423,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_33_FD33_4",
+      "origins": 521,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_33_FD33_5",
+      "origins": 451,
+      "labels_risks_flags_and_censoring_exact": true
+    },
+    {
+      "record": "Pt_33_FD33_6",
+      "origins": 520,
+      "labels_risks_flags_and_censoring_exact": true
+    }
+  ],
+  "hashes": {
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_10_FD10_1\\reference_events.csv": "7e57454aedd8e85086e88a33f6e59e0243f65bc50fb2a4a5bb63fc582c474150",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_1\\train_origins.csv": "adcfd26973235b75874dd5739ded6ff54f54273a5fb38517a34371fe63435758",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_1\\validation_origins.csv": "afc78e02fe5d5440fe9ea31665e16658fcf4488aeb1de651a78fb6487823a369",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_10_FD10_1\\learned_seed_2026_first_onsets.npz": "78216ba0689a425b6c9a920c5485ec5b63f5aa8c957df2a08df7cc910458cb12",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_10_FD10_2\\reference_events.csv": "982304f1b2583897af4a13a69d8f3032cae42ca439ec80bc4009cde61fd7d01b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_2\\train_origins.csv": "2365069fc2f78903080974e8addc91cea16de3c53f1d1a7b5f910912d61acbb0",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_2\\validation_origins.csv": "f4cdcdcea282b8df9ad2a613be4a68de2dfcf9e384fa0a3b558516b96b8d2902",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_10_FD10_2\\learned_seed_2026_first_onsets.npz": "121c8e05215fe0edfc53855ff7d33eda582bba8e690a41bfa8074f2ff2303780",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_10_FD10_4\\reference_events.csv": "ec92a553d8730099efa01dce816183f7367425780c9f1c519d76a5f5af3a1f82",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_4\\train_origins.csv": "1cbcd15638574555f7bc6cfca6bb73dc97c25487694abdbb3f274bab2e9d9297",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_10_FD10_4\\validation_origins.csv": "96031bd0fbef04850d688e5e30f363f0101c3f98ad4746bef81d5e20a6053206",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_10_FD10_4\\learned_seed_2026_first_onsets.npz": "d2ac92a05d2aaa8df531f5eea7f7e0341b5b816bd880c037f2122fe6c4d7cb5a",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_18_FD18_2\\reference_events.csv": "26a7d3d7c069a2280e8f717db74af15ef8afa2bb657591555f03e02c7d947027",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_2\\train_origins.csv": "2be487ce28cfae0ba1edf2e3e655c3cbb588173f0ccd60bc2ad16ac122bdb298",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_2\\validation_origins.csv": "a64b18d1bb1205daaae444cd99bf771ac15c5f87af85667cff92e4aabb87b84b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_18_FD18_2\\learned_seed_2026_first_onsets.npz": "a415cbf40d0c04577f878f1be12a654aff1cede1d64316f70704c184a1f16eee",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_18_FD18_3\\reference_events.csv": "e712ccd5f57296bcdebce514d8067023b647ac1f6316954e076b87bf81104532",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_3\\train_origins.csv": "a6e11fc8f193c7cf0474a803e68b2d127c89684b298379f3a4169652f71bed24",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_3\\validation_origins.csv": "00322db2cb3e336f4edbc4eba9ad0d6b2f1190d6af0163ddfb40caf7df4420b7",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_18_FD18_3\\learned_seed_2026_first_onsets.npz": "be2596b09c74005c995d68debe33d8a191ffb7dfece51a8b7181ab81de0d7014",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_18_FD18_4\\reference_events.csv": "aaff69ca29a1251a1924007fba6c680c4ea3964d1b3a727be218689c08691d9c",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_4\\train_origins.csv": "507482f4a7465322b6acc2e45aad640aa6d88facb05578408f4f28db389a396c",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_4\\validation_origins.csv": "d7982273f98ce3e3a7a13490d6719184743a82af241b73f8e1bf192698ccabfb",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_18_FD18_4\\learned_seed_2026_first_onsets.npz": "cc78043b7a0e5943c7ac39ca5b964685097bbbd1040d55ddbd64ed262da3b9ec",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_18_FD18_5\\reference_events.csv": "09349bba9b800ce8e12d03279335acdb53bf3d0bc3a70b1a2f84495228d312c1",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_5\\train_origins.csv": "65f9c3dd1bd462674bb91b24461db7098140ea884f0eeee15f1157ee9d934511",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_18_FD18_5\\validation_origins.csv": "2ae1c2e761f9a8a0bf318657dd1ca681fe3b604e9a0fdc0a9a13f4ba219a5c6a",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_18_FD18_5\\learned_seed_2026_first_onsets.npz": "f2f2b5b8e270f55e9aa6d38ce013f9915bf822d1757440b08259009c6e27219e",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_20_FD20_2\\reference_events.csv": "28ddd2a30437100f7825421510f2c4dc7aae47a4b93cbcdca379dc58c34bea70",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_2\\train_origins.csv": "887f50cff2ace97ef13187bf817ba2ec7b8aaa4d61bf52a03ec9ddf9456e980f",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_2\\validation_origins.csv": "89077fbdf515c893e5e4b57bcdc3fe20d79691f4c64c9bf5d7840a37e0f65f23",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_20_FD20_2\\learned_seed_2026_first_onsets.npz": "342ee8a7f5a9876d7424197e1a8a90c4b41351e6aade6df2db1b25df5a7bf82b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_20_FD20_3\\reference_events.csv": "aecff724c1ec3f0583d1efec9f3af940a7f01f27f93cfdaa2dfb4263c755be9e",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_3\\train_origins.csv": "224327298bcb533b3dd88c57d98a87a390af68bce74564515b6d7bcbd09a93e9",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_3\\validation_origins.csv": "a3366929e8371e85d397c82a8afad8bd198fd9caf1c4ca423e892f0f692302e4",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_20_FD20_3\\learned_seed_2026_first_onsets.npz": "878576a7935b388e247b2e1c0c93129ac02f8f784d7f4fc8dd3412e0fdc617b9",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_20_FD20_4\\reference_events.csv": "1b35c73d7b4cc895d39684d56bd97d4fae99a1744ce2f8da5ba9551ab3a35a59",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_4\\train_origins.csv": "2f411d1729fe99c462349ce4e0ed0d8adf8850477e1cd1219a7754809aea08e5",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_4\\validation_origins.csv": "f785decb0adebb9d6c83e6a16f10be9fb4c94ddcea4752af5d37de0a96959fcc",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_20_FD20_4\\learned_seed_2026_first_onsets.npz": "5184167744d010085f8cd04bdd81979397a02f92a1c3d6e52b3767d0ebcc10fa",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_20_FD20_5\\reference_events.csv": "a569b314a8fc4e6ba72460b6bae161bbe1332feb3c60241ed6f12fb036569d12",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_5\\train_origins.csv": "861aa0805e4cf2f00c8bb8403d4261a82cc33dd68c73583dca49d80c8d9752a3",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_5\\validation_origins.csv": "be35e61b5fbc38bb467dbc3a4f33c6beed523b9ee14f01090fa5095fceb4b06a",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_20_FD20_5\\learned_seed_2026_first_onsets.npz": "2a8f049e8b6e212da3277c75862c5aec6638441b47314c5eed3b02569e368855",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_20_FD20_6\\reference_events.csv": "92611a02ecf53ba1cb2e59017228f804d8c23e18154ffbbd64b91acee0aae114",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_6\\train_origins.csv": "cd5dd06f1e1bb042cd0d80f3a000e837b098bd0a375f2b6a382dc2180511add2",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_20_FD20_6\\validation_origins.csv": "b9485ffe8892f1fcc735111ac806ef928ba64e44eba7eeac717f95d02aa603da",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_20_FD20_6\\learned_seed_2026_first_onsets.npz": "853b62bd8fbcd445d27ecc61cc13e8cf20a47f1e14b1186aab2d5301890ecc4a",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_22_FD22_3\\reference_events.csv": "b77587922b300ca4b641fae19936179e1f93eed61173fb1cd416f122d05b84d8",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_22_FD22_3\\train_origins.csv": "d1e2e33234ee78d60fbfa0f8cddded75f08d5c889624ea604591c66b3f740941",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_22_FD22_3\\validation_origins.csv": "649e035e3731326472826b9d0f694b6fd01b9745a1d3edee7677764edea77ec4",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_22_FD22_3\\learned_seed_2026_first_onsets.npz": "472e9afa430ce146aceb89e814db26c89ba90469c6ab093f19bf6ee1ee54062e",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_31_FD31_1\\reference_events.csv": "af026c9d594ff3006ce61b0cc52f23f7256a2445451a96b69bdaeeab27cdd2c6",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_31_FD31_1\\train_origins.csv": "ab688eefaa867e0f88c9e7b35b257936efd6a624637f77f7b40c93d4c2831916",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_31_FD31_1\\validation_origins.csv": "351ba3768c9650978f73bf962f6f7a7031be634412de03b2f86b0772538757f7",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_31_FD31_1\\learned_seed_2026_first_onsets.npz": "887e0606df9149594dc44ebd7cb4e94ef74ea516772bce96d9f030c71f3f454b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_31_FD31_2\\reference_events.csv": "f9541a272421b856fb194cf555f70b8ae4065a7afb06f13cb701016055d5a09e",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_31_FD31_2\\train_origins.csv": "97c873fe6983e01352a6ac4d3f2751891abf121db98bae19d68d119962046516",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_31_FD31_2\\validation_origins.csv": "b828b346893a7c2752a35aa39b991f727a087f81d89f0aa05a9ffded73390d99",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_31_FD31_2\\learned_seed_2026_first_onsets.npz": "18e23af07c5cd30fedfa0d68c59f8f6b030ca2b3c16bdcefea9078a86cb72e01",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_32_FD32_1\\reference_events.csv": "7d7f579704fd9358da091f21d35065434741e2385f6f88e941f36dc1193bdd09",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_32_FD32_1\\train_origins.csv": "8be1dd670ead8f8cd87acd2b76412995a5478c757483ff4483f1a0274b3486ab",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_32_FD32_1\\validation_origins.csv": "da929bd5508f645b6a152957a075bedb3965db7f469247c4fc70a0c349250a58",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_32_FD32_1\\learned_seed_2026_first_onsets.npz": "7099c74f871fd630a33b9ed2f8dcc629dc234389ac1849b28ad7ac600dfb3234",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_33_FD33_1\\reference_events.csv": "aa77665cc0c375da7899fa258f441b7cc4d5340dc5046c6dfd2b1911a6a29727",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_1\\train_origins.csv": "38dd10fb7de565792659cd29974eb2b3d5d20f4d42c6c962aa75c30da4bae8d9",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_1\\validation_origins.csv": "a6931d5c9d516267239c5a1527768297b8e3372183799dad2d704aa5b616057b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_33_FD33_1\\learned_seed_2026_first_onsets.npz": "a9dfc75ce3512d451e5ffe2b878044db9e081f74f5a69130a2005b28056cd389",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_33_FD33_2\\reference_events.csv": "7f831aeb251d941f4f4d64ce689a3a9737bb13741917e27ad4cd465bf244d8f1",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_2\\train_origins.csv": "ced28eb3c2daea9738c7cf9f466a80d30c0f69220891c0d843beedc5aba95850",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_2\\validation_origins.csv": "87835e32867625a4f72a06b1b3222b67eb5cc730d50a4497e4ba5b86f862f262",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_33_FD33_2\\learned_seed_2026_first_onsets.npz": "17c648c5adeaeea01b55455e7a6e6554dec1683853c0dcb85cf6fbb3ee745be7",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_33_FD33_4\\reference_events.csv": "c753e9a24c889f8b3325aca28b66a762e3f585660977ece06882ae18d0eb2c11",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_4\\train_origins.csv": "640c4f55abe8ef6baeb89350c728bd14663dfe4c9d083ae50129d7556eb3504a",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_4\\validation_origins.csv": "851a5cb0eac98b087b950fcfbd48bbf8b6de9c6213092004993c4ee10a0e1715",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_33_FD33_4\\learned_seed_2026_first_onsets.npz": "b59a2cf79c0e671941fc4305055c5bab378d7e1f358426e81b547bb13f925acb",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_33_FD33_5\\reference_events.csv": "268759523133445b81f4a65c83f395903c54db399027aaef709a62f5adc8eac0",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_5\\train_origins.csv": "aaf6ffb4684ad973bf9c3baec0ca70d051af13773ea7c2e6347a67f3d089312d",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_5\\validation_origins.csv": "195ea66f2cbfae719801e38c4faa7f069c42bb61883712c2e732460adc41297b",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_33_FD33_5\\learned_seed_2026_first_onsets.npz": "c990734d15650690dc272031687e778d1828d97031669283261b73d4c860c998",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\source_snapshot\\records\\Pt_33_FD33_6\\reference_events.csv": "5db77b2760a160022aa62b3bb0a329f1ee3cdcad356cc22da0938711ecdd7a5d",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_6\\train_origins.csv": "86bc058b27a101457562f8c24cd5174fe8b323703f086e6c2d580c9cec8e115f",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\baseline_cache\\records\\Pt_33_FD33_6\\validation_origins.csv": "606bba8cd845135151e531fb172650c1ba05dd8882fa36a484b0227277b504d9",
+    "C:\\Users\\Rujia Chen\\Documents\\ChatGPT\\paper\\two_second_primary_20261027\\analysis\\two_second_primary\\inputs\\unified_seed2026_20261027\\results\\records\\Pt_33_FD33_6\\learned_seed_2026_first_onsets.npz": "e644cbca18a74fae09531ac7cbe241ba6f1b24f189786b1dfd52a2c8e7da9493"
+  },
+  "seed": 2026,
+  "neural_retrained": false,
+  "simulation_rerun": false,
+  "main_horizon": 2,
+  "horizon_selected_after_results": true,
+  "survival_extension": "Kaplan-Meier renewal recursion, 0.005-s grid; current-gap-only retained separately",
+  "tail_fallback": "If S(age)=0, retain current-gap fallback 0.5 when its positive deadline is in range, otherwise zero",
+  "logistic_refit": "Per horizon on normal fit-prefix origins with complete horizon; degree/C selected on validation only"
+}

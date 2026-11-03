@@ -1,0 +1,33 @@
+{
+  "model": "same frozen 5-s endpoint",
+  "forecast_duration_s": 5,
+  "horizons_s": [
+    1.0,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "threshold": 0.8,
+  "confirm": 2,
+  "draws": 128,
+  "seed": 2026,
+  "record_seed": 2026,
+  "record_offset": 0,
+  "batch_size": 32,
+  "history_seconds": 1.13,
+  "risk": "CDF of first NEW cycle-gap onset within each horizon",
+  "ongoing_context": "Do not count an already overdue gap; wait for predicted recovery peak before a new gap.",
+  "detector": "Same observed context, scaling, SciPy find_peaks and minimum-distance settings as primary",
+  "compatibility": "Primary evaluation is the SAME 1-s column of these multihorizon paths; also checked against legacy 1-s event function",
+  "event_scoring": "Both horizon-specific matching and common 1-s matching are reported",
+  "probability_scoring": "Full per-horizon follow-up plus common full-5-s follow-up",
+  "random_stream": "Reset seed 2026 for every record and variant; no record offset; save CPU/CUDA state before every batch and all force paths",
+  "deterministic_algorithms": true,
+  "cublas_workspace_config": ":4096:8",
+  "tf32": false,
+  "environment": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4"
+  },
+  "training": "Frozen weights: original training seed 2026 and historical validation-noise seed 777 retained; no retraining; only evaluation stream standardized"
+}

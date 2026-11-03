@@ -1,0 +1,141 @@
+{
+  "source": "unified_seed2026_20261027/source_snapshot per-record model.pt checkpoints",
+  "n_records": 21,
+  "observation_map": "q_raw = A_raw z + c; A_raw = diag(scale) @ decoder.weight; c = mean + scale * decoder.bias",
+  "all_21_decoder_matrices_invertible_numerically": true,
+  "minimum_singular_value_normalized_W": {
+    "min": 0.003963700101270856,
+    "q25": 0.008490827945422457,
+    "median": 0.020184077583725868,
+    "q75": 0.029980811994842753,
+    "max": 0.050151572640134985
+  },
+  "condition_number_normalized_W": {
+    "min": 22.520858891658587,
+    "q25": 50.75532969445679,
+    "median": 68.99146977856151,
+    "q75": 123.18919758133025,
+    "max": 434.58645296690787
+  },
+  "minimum_singular_value_raw_A": {
+    "min": 0.1064724389760555,
+    "q25": 0.31184993940339667,
+    "median": 0.8357467857533918,
+    "q75": 1.546537412132866,
+    "max": 3.443312777705377
+  },
+  "condition_number_raw_A": {
+    "min": 22.548896610406196,
+    "q25": 50.73105165888316,
+    "median": 68.99181543577131,
+    "q75": 123.18504764841393,
+    "max": 434.5888330802463
+  },
+  "condition_number_raw_A_over_100_count": 6,
+  "condition_number_raw_A_over_200_count": 1,
+  "determinant_normalized_W": {
+    "min": 0.00682775234064436,
+    "q25": 0.009418147857438433,
+    "median": 0.02810691697898451,
+    "q75": 0.03455136825589377,
+    "max": 0.08388836137631725
+  },
+  "determinant_raw_A": {
+    "min": 1.5061441839440106,
+    "q25": 12.009260701172057,
+    "median": 51.465380353726644,
+    "q75": 120.37575553597277,
+    "max": 267.3488028276471
+  },
+  "fraction_negative_det": 0.0,
+  "median_current_beta_by_record": {
+    "min": -0.9722126126289368,
+    "q25": -0.9483372569084167,
+    "median": -0.9102372527122498,
+    "q75": -0.7836018800735474,
+    "max": -0.03741568326950073
+  },
+  "current_beta_over_all_normal_test_origins": {
+    "min": -0.9785129427909851,
+    "q25": -0.9581416100263596,
+    "median": -0.9109115302562714,
+    "q75": -0.7764368802309036,
+    "max": -0.02852010726928711
+  },
+  "outer_radial_eigenvalue_per_s": {
+    "min": -1.9251686334609985,
+    "q25": -0.4327962398529053,
+    "median": -0.1795254945755005,
+    "q75": -0.1033254861831665,
+    "max": -0.055574774742126465
+  },
+  "outer_floquet_multiplier_per_cycle": {
+    "min": 1.610078042098891e-08,
+    "q25": 0.7422477096743445,
+    "median": 0.8499860894086839,
+    "q75": 0.9019630684802366,
+    "max": 0.9448068210983932
+  },
+  "outer_radial_eigenvalue_over_all_normal_test_origins_per_s": {
+    "min": -1.9429597854614258,
+    "q25": -0.44712623953819275,
+    "median": -0.17817693948745728,
+    "q75": -0.08371677994728088,
+    "max": -0.042974114418029785
+  },
+  "outer_floquet_multiplier_over_all_normal_test_origins": {
+    "min": 4.295889998120359e-09,
+    "q25": 0.692726687093431,
+    "median": 0.8478883192573367,
+    "q75": 0.9069239399572542,
+    "max": 0.9589836305641907
+  },
+  "normal_test_origins_with_frozen_beta_in_minus1_0": 8264,
+  "representative_record": "Pt_18_FD18_5",
+  "representative_condition_number_raw_A": 68.99181543577131,
+  "representative_A_raw": [
+    [
+      33.244993175413384,
+      25.755377051447642
+    ],
+    [
+      -34.114566091545065,
+      -24.880983669212668
+    ]
+  ],
+  "representative_offset_raw": [
+    74.72388110314613,
+    79.17556106162216
+  ],
+  "representative_force_ellipse_semiaxes": [
+    59.587666699545196,
+    0.8636918208801012
+  ],
+  "worst_condition_record": "Pt_32_FD32_1",
+  "worst_condition_number_raw_A": 434.5888330802463,
+  "worst_condition_force_ellipse_semiaxes": [
+    112.63068448864664,
+    0.259166080477382
+  ],
+  "worst_condition_inverse_small_axis_gain": 3.8585296276349417,
+  "representative_local_frozen_parameters": {
+    "beta": -0.9483372569084167,
+    "frequency_hz": 1.1900655031204224,
+    "sigma": 0.38835179805755615,
+    "origin_time_s": 68.74
+  },
+  "deterministic_local_stability": {
+    "origin": "stable focus for beta < 0, eigenvalue real part beta",
+    "inner_cycle": "unstable for -1 < beta < 0, radius sqrt(-beta)",
+    "outer_cycle": "stable for -1 < beta < 0, radius 1",
+    "outer_radial_eigenvalue_per_s": -0.1033254861831665,
+    "outer_floquet_multiplier_per_cycle": 0.9168390313286011,
+    "affine_invariance": "An invertible A conjugates the vector fields; eigenvalues and Floquet multipliers are unchanged."
+  },
+  "inverse_roundtrip_max_abs_error_all21": 2.842170943040401e-14,
+  "caveats": [
+    "The ellipse is the affine image of the deterministic frozen-coefficient latent cycle; the main model has time-varying parameters and stochastic forcing.",
+    "The plotted solid trajectory is the saved 128-path decoded ensemble mean, inverted through the same affine map; individual paths were not saved in this compact source snapshot.",
+    "This checks numerical invertibility and geometric/stability consequences, not physiological identification of the latent axes."
+  ]
+}

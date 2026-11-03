@@ -1,0 +1,15 @@
+{
+  "note": "execution_source preserves the scripts actually executed. Portable entry points only change imports to the exact extracted helper functions; simulation arithmetic is unchanged.",
+  "execution_files": {
+    "replay_saved_stream.py": "78c72e8019f50fbfd2b57a85b941d5c420f58cbc50c0238e4807a920efe9d61d",
+    "run_intervention.py": "2cb917e916d0b68a6bbd656177fcaf3ebf7cd2f6ecca4d0981bbc94289f7be44",
+    "run_unified.py": "fab6a211ea1e8c51694dec0d71ab2d6be548c93299f056f0a07dada0884a3b32"
+  },
+  "extracted_functions_sha256": [
+    "2dc561c7f32e53564554b70e595a302e57b1932c55c8e4d278bdad231d40f8aa",
+    "d928aad392c52ec71330c1547ba73b6b633c88f8734164dc264f0560210a23e5",
+    "a09a9d0f5730169d97a9c0664daf64f5cacd5fd4fa661aaf469a0011456a3e50",
+    "3d415f5c23ee20731523765aba65f1d77a460587ac662338198c5a95315b86c4",
+    "d8807aa5cf87757c42228ff001058e1b954a798979ee859eb43af41116ef63b0"
+  ]
+}

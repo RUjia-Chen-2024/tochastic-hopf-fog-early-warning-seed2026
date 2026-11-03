@@ -1,0 +1,27 @@
+{
+  "model": "same frozen 5-s endpoint",
+  "forecast_duration_s": 5,
+  "horizons_s": [
+    1.0,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "threshold": 0.8,
+  "confirm": 2,
+  "draws": 128,
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "batch_size": 32,
+  "history_seconds": 1.13,
+  "risk": "CDF of first NEW cycle-gap onset within each horizon",
+  "ongoing_context": "Do not count an already overdue gap; wait for predicted recovery peak before a new gap.",
+  "detector": "Same observed context, scaling, SciPy find_peaks and minimum-distance settings as primary",
+  "compatibility": "1-s risks must exactly equal previous seeded replay at every origin",
+  "event_scoring": "Both horizon-specific matching and common 1-s matching are reported",
+  "probability_scoring": "Full per-horizon follow-up plus common full-5-s follow-up",
+  "training": "Frozen weights; soft event objective trained for 1 s, not separately refitted for longer events"
+}

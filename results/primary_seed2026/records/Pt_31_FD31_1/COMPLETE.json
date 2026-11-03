@@ -1,0 +1,34 @@
+{
+  "record": "Pt_31_FD31_1",
+  "checkpoint_sha256": "8ffcd2ea11d02ff8ebe4d62c6baad14d02cd680d88de8779418282d4eb1ac5f4",
+  "checkpoint_unchanged": true,
+  "origins": 377,
+  "variants": [
+    {
+      "variant": "zero_noise",
+      "seed": 2026,
+      "record_offset": 0,
+      "nested_risks": true,
+      "one_second_matches_legacy_definition": true,
+      "saved_rng_replay_exact": true,
+      "force_paths_file": "zero_noise_force_paths.npy",
+      "force_paths_sha256": "b1b871a9c5e467ffaee8c9286b09cd54b55b223289d7965cce56372d48f5d57e",
+      "force_paths_bytes": 1508128,
+      "rng_file": "zero_noise_rng_stream.pt",
+      "rng_sha256": "221cab75c4e3a40ca6c653cc1755c7bd21550ba499359755e35ab424fb555be3"
+    },
+    {
+      "variant": "learned_seed_2026",
+      "seed": 2026,
+      "record_offset": 0,
+      "nested_risks": true,
+      "one_second_matches_legacy_definition": true,
+      "saved_rng_replay_exact": true,
+      "force_paths_file": "learned_seed_2026_force_paths.npy",
+      "force_paths_sha256": "cac1d8759901d4aab8837e7e61e7d0055407a625716d9ff34837246e2eb4e91d",
+      "force_paths_bytes": 193024128,
+      "rng_file": "learned_seed_2026_rng_stream.pt",
+      "rng_sha256": "ca58c398f223e4b32f57a534af4b7ceb508677abc9300e42b17d5a38fbcc785f"
+    }
+  ]
+}

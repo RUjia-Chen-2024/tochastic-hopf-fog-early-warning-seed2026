@@ -1,0 +1,27 @@
+{
+  "source": "<SERVER_RUN_DIR>",
+  "reference": "<SERVER_RUN_DIR>",
+  "model": "latest 5-s endpoint",
+  "threshold": 0.8,
+  "strict_comparison": ">",
+  "confirmation": 2,
+  "event_window_s": 1,
+  "forecast_window_s": 5,
+  "fine_dt_s": 0.01,
+  "origin_dt_s": 0.05,
+  "draws": 128,
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "batch_size": 32,
+  "primary_noise_comparator": "exact saved primary evaluation; original RNG state not retained",
+  "sensitivity": "three reproducibly seeded learned-noise replays of the same checkpoints",
+  "zero_noise_draws": 1,
+  "zero_noise_note": "All 128 paths coincide without diffusion; one unique path is exact.",
+  "retraining": false,
+  "threshold_tuning": false,
+  "normal_screening": "unchanged offline reference-normal origins",
+  "main_contrast": "diffusion suppressed versus restored in the same fitted stochastic model"
+}

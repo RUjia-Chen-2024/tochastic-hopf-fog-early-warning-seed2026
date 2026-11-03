@@ -1,0 +1,22 @@
+[
+  {
+    "record": "Pt_10_FD10_1",
+    "variant": "zero_noise",
+    "seed": 2026,
+    "origins": 521,
+    "batches": 17,
+    "all_paths_exact": true,
+    "draws": 1,
+    "device": "cuda:0"
+  },
+  {
+    "record": "Pt_10_FD10_1",
+    "variant": "learned_seed_2026",
+    "seed": 2026,
+    "origins": 521,
+    "batches": 17,
+    "all_paths_exact": true,
+    "draws": 128,
+    "device": "cuda:0"
+  }
+]
