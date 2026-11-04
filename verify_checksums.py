@@ -3,6 +3,8 @@
 from hashlib import sha256
 from pathlib import Path
 
+from generate_checksums import package_files
+
 
 ROOT = Path(__file__).resolve().parent
 MANIFEST = ROOT / "SHA256SUMS.txt"
@@ -14,8 +16,7 @@ for line in MANIFEST.read_text(encoding="utf-8").splitlines():
 
 actual_paths = {
     path.relative_to(ROOT).as_posix()
-    for path in ROOT.rglob("*")
-    if path.is_file() and path != MANIFEST
+    for path in package_files()
 }
 missing = sorted(actual_paths - expected.keys())
 unexpected = sorted(expected.keys() - actual_paths)

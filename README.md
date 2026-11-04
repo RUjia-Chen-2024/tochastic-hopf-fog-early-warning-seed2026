@@ -36,3 +36,5 @@
 
 The author-supplied manuscript PDF is cited but not redistributed in this package. Raw force data, trained model checkpoints, and full decoded path arrays are also omitted.
 
+Checksums cover the published files. Git metadata, Python caches, local environments, and input files in the ignored data/checkpoint directories are excluded. Text files use LF line endings so the checksums also apply to a fresh Git clone or downloaded source archive.
+

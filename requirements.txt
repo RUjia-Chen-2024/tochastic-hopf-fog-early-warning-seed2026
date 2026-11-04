@@ -1,0 +1,10 @@
+# Simulation/reporting dependencies; this is not a complete environment lock.
+# Recorded inference used torch 2.6.0+cu124 and CUDA 12.4.
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+torch==2.6.0
+# Optional SSH helper in scripts/baselines/collect_saved_force_metrics.py.
+paramiko
