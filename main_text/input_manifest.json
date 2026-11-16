@@ -1,0 +1,107 @@
+[
+  {
+    "tag": "Pt 10_FD10_1",
+    "record": "data/records/Pt_10_FD10_1.npz",
+    "record_sha256": "fc0b8d392a56897b2cae8328ac595f530b8ffce7d21d40cc456ff8d2f9d2e27d"
+  },
+  {
+    "tag": "Pt 10_FD10_2",
+    "record": "data/records/Pt_10_FD10_2.npz",
+    "record_sha256": "2ca3aa1b0e681bf4f78c7a0c9d2255a1b41c8736da6a1420ff48efcaf340d910"
+  },
+  {
+    "tag": "Pt 10_FD10_4",
+    "record": "data/records/Pt_10_FD10_4.npz",
+    "record_sha256": "608035691580a932725e9eab9f6c114e357fe461aa353991510bb886c5fd3a8c"
+  },
+  {
+    "tag": "Pt 18_FD18_2",
+    "record": "data/records/Pt_18_FD18_2.npz",
+    "record_sha256": "563314aa173353330b8ac0a98333a67280f43b0ce1b8925fe356e2f121a0067e"
+  },
+  {
+    "tag": "Pt 18_FD18_3",
+    "record": "data/records/Pt_18_FD18_3.npz",
+    "record_sha256": "79648892e46263d842eef5d2405d519413f93343dbb2fb5380cfd6f590acf6b2"
+  },
+  {
+    "tag": "Pt 18_FD18_4",
+    "record": "data/records/Pt_18_FD18_4.npz",
+    "record_sha256": "24f905fde5d89cbe7578f568a0c29cc2f6ec0cf83d3d8e75c0776fbae3107947"
+  },
+  {
+    "tag": "Pt 18_FD18_5",
+    "record": "data/records/Pt_18_FD18_5.npz",
+    "record_sha256": "21b1cb238f8708047d3476dac5711f03b6a7ba3265da476cfe2f0c20fb6c656c"
+  },
+  {
+    "tag": "Pt 20_FD20_2",
+    "record": "data/records/Pt_20_FD20_2.npz",
+    "record_sha256": "0f69ed1f05205b3e256ee34adffc31aa0b29b855b653c8f636360184b6077718"
+  },
+  {
+    "tag": "Pt 20_FD20_3",
+    "record": "data/records/Pt_20_FD20_3.npz",
+    "record_sha256": "1f6efe81a49c4573073ff28cda71cdece7a5ac3cc18893432999e81c591aa4e7"
+  },
+  {
+    "tag": "Pt 20_FD20_4",
+    "record": "data/records/Pt_20_FD20_4.npz",
+    "record_sha256": "a987257b26c202b612b192592a56694564a89ae16a32b36056c86aa88720ca57"
+  },
+  {
+    "tag": "Pt 20_FD20_5",
+    "record": "data/records/Pt_20_FD20_5.npz",
+    "record_sha256": "92870502795ca7ce88f2250d77e0c7b92349f52b731fe16751eac5d28cc2b617"
+  },
+  {
+    "tag": "Pt 20_FD20_6",
+    "record": "data/records/Pt_20_FD20_6.npz",
+    "record_sha256": "8aa14701b7cd92f871fbb39a340ce1a4a978fef13684c691a66d6d4c57259e2a"
+  },
+  {
+    "tag": "Pt 22_FD22_3",
+    "record": "data/records/Pt_22_FD22_3.npz",
+    "record_sha256": "52ccc09b4cc07b20895a85389107c3ec66f9391889548c6aee234786320c4080"
+  },
+  {
+    "tag": "Pt 31_FD31_1",
+    "record": "data/records/Pt_31_FD31_1.npz",
+    "record_sha256": "4e44416d186aa538e4c817fcba6df9a3f2d65d7f6eb077598a9cef12f34d0ec2"
+  },
+  {
+    "tag": "Pt 31_FD31_2",
+    "record": "data/records/Pt_31_FD31_2.npz",
+    "record_sha256": "a81e2489c17707bfeaf01d4d64252f826827616daa829661e44c8031554d1637"
+  },
+  {
+    "tag": "Pt 32_FD32_1",
+    "record": "data/records/Pt_32_FD32_1.npz",
+    "record_sha256": "24127363956eac9a09061feb08fb997d3a0e248cd0bab2b7c665182574bfda56"
+  },
+  {
+    "tag": "Pt 33_FD33_1",
+    "record": "data/records/Pt_33_FD33_1.npz",
+    "record_sha256": "d52424b305ae593377f705a628b8d70a58c39e682473d181d28e3d3e55a7ce65"
+  },
+  {
+    "tag": "Pt 33_FD33_2",
+    "record": "data/records/Pt_33_FD33_2.npz",
+    "record_sha256": "99e93e31943c8dbc898f7561f00e4adf780b87427e5de9abe64b60024203c1aa"
+  },
+  {
+    "tag": "Pt 33_FD33_4",
+    "record": "data/records/Pt_33_FD33_4.npz",
+    "record_sha256": "69a195ad570783bcf6ba9c4a894e4002135a9beb51eeb692bccde9587b4899ac"
+  },
+  {
+    "tag": "Pt 33_FD33_5",
+    "record": "data/records/Pt_33_FD33_5.npz",
+    "record_sha256": "bed4183b7b9964e89c858372013304e1622a253ffc7b4460d0d1cc29a37196d4"
+  },
+  {
+    "tag": "Pt 33_FD33_6",
+    "record": "data/records/Pt_33_FD33_6.npz",
+    "record_sha256": "e509461815e273aa44d4b24588e4769ac97c3c8c0b222bb3f74ef82ab0129f19"
+  }
+]

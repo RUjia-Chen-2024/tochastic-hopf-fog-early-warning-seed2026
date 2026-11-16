@@ -1,0 +1,15 @@
+{
+  "cycle": 1.13,
+  "fs": 100.00000000000213,
+  "peak_scale": 117.05607843137254,
+  "distance_samples": 51,
+  "height": 0.4,
+  "prominence": 0.08,
+  "onset_delay": 1.6949999999999998,
+  "abnormal_gap": 1.6949999999999998,
+  "reference_rule": "paper_2020",
+  "onset_convention": "Threshold crossing at previous peak + 1.5T",
+  "calibration_stop": 4680,
+  "calibration_end_time": 46.79,
+  "coarse_fit_peaks": 51
+}

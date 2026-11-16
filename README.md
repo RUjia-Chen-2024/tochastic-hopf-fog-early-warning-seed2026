@@ -1,5 +1,22 @@
 # Stochastic Hopf early-warning experiments — seed 2026
 
+## 正文模型入口 / Main-text models (2026-11-16)
+
+按照作者提供的第 39 版 PDF 正文，模型集中在 **[main_text/](main_text/README.md)**。
+本次新增 **6 组、126 份原始训练权重**，以及生存模型和峰龄逻辑回归等统计模型的拟合参数、推理入口和训练代码。
+主模型、无事件损失、未来常系数、直接风险 MLP、两组观测对齐重训模型各有 21 份权重。
+零扩散、冻结 beta/frequency/sigma 和连续回放复用已有权重。
+
+- [模型与正文位置对照](main_text/README.md#model-to-manuscript-map)
+- [所有权重及 SHA256](main_text/MODEL_INDEX.json)
+- [推理入口](main_text/predict.py)；[训练与回放说明](main_text/TRAINING_AND_REPLAY.md)
+- 校验：`python main_text/verify_models.py --smoke`
+
+此次新增目录不包含原始受力数据、论文 PDF、附录专属结果表或附录图。
+下列旧目录与历史结果保持原样；主评价和消融回放仍按不同随机流区分。
+
+## 历史结果包说明 / Existing saved-result package
+
 这是论文 **Inverse modelling of stochastic Hopf dynamics for early warning of stepping-cycle anomalies** 的实验复现材料包。它把主评价、多事件窗口、零噪声干预、训练消融、beta/frequency/sigma 参数回放及其代码和汇总结果放在同一目录，并按随机流分开标记。
 
 ## 使用哪一组数字
@@ -24,17 +41,17 @@
 
 ## 复现与数据
 
-结果表、风险、标签、报警、RNG 状态和首次事件时间已随包提供。为了让 GitHub 仓库保持轻量，未复制原始力数据、模型权重和服务器上约 4 GB 的逐路径力数组。原始数据来源链接和模型/代码校验信息见论文及结果目录。重新模拟时，需要先取得源数据和对应 checkpoint，再按脚本参数传入 source/reference 目录；当前包中的汇总分析可直接从已保存 CSV 重算。
+结果表、风险、标签、报警、RNG 状态和首次事件时间已随旧包提供。原始力数据和服务器上约 4 GB 的逐路径力数组仍未复制。正文模型的权重现已加入 `main_text/models/`。原始数据来源链接和模型/代码校验信息见论文及结果目录。完整批量回放仍需要原来的输入目录结构；单个预测时间的推理可使用新增的 `main_text/predict.py`。
 
 主运行入口见 `scripts/primary_seed2026/run_unified.py`，控制实验入口见 `scripts/component_replay/`，参数敏感性入口见 `scripts/parameter_sensitivity/`。实际服务器环境为 PyTorch 2.6.0+cu124、CUDA 12.4；逐批 RNG 状态只保证在相同代码、设备、批大小和数值设置下复现。
 
-解码矩阵审计入口见 `scripts/decoder_limit_cycle_audit/analyze_affine_cycles.py`。复算需要向 `--checkpoint-root` 提供每条记录的 `model.pt` 和 `predictions.npz`；渲染图需要本地安装 NumPy、Matplotlib。为控制包体积，检查点和单条随机路径仍未打包，现有审计汇总、映射后的均值轨迹和图已包含在结果目录。
+历史解码矩阵审计入口见 `scripts/decoder_limit_cycle_audit/analyze_affine_cycles.py`。复算需要向 `--checkpoint-root` 提供每条记录的 `model.pt` 和 `predictions.npz`；渲染图需要本地安装 NumPy、Matplotlib。正文模型权重现已提供，完整逐路径预测数组仍未打包。既有审计汇总、映射后的均值轨迹和图保留在旧结果目录。
 
 ## 校验和 GitHub
 
-运行 `python validate_package.py` 可检查共享协议与关键汇总值；运行 `python verify_checksums.py` 可验证文件完整性；运行 `python generate_checksums.py` 可重建 SHA256 清单。清单逐一覆盖包内文件（不含清单自身）。尚未添加开源许可证；公开仓库前需由作者选择许可，并确认公开模型权重和数据副本的分发条件。
+运行 `python validate_package.py` 可检查共享协议与关键汇总值；运行 `python verify_checksums.py` 可验证文件完整性；运行 `python generate_checksums.py` 可重建 SHA256 清单。清单逐一覆盖包内文件（不含清单自身）。新增权重另有 `main_text/MODEL_INDEX.json` 和 `main_text/verify_models.py` 校验。本次更新不改变许可证状态。
 
-The author-supplied manuscript PDF is cited but not redistributed in this package. Raw force data, trained model checkpoints, and full decoded path arrays are also omitted.
+The author-supplied manuscript PDF, raw force data and full decoded path arrays are not redistributed. Main-text trained checkpoints are now included under `main_text/models/`.
 
 Checksums cover the published files. Git metadata, Python caches, local environments, and input files in the ignored data/checkpoint directories are excluded. Text files use LF line endings so the checksums also apply to a fresh Git clone or downloaded source archive.
 
